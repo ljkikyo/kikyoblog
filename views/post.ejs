@@ -1,0 +1,22 @@
+<%- include header %>
+<form method="post">
+ <div>
+  <p><label>标题:</label></p>
+    <input type="text" name="title">
+ </div>
+  <div>
+    <p><label>标签:</label></p>
+    <input type="text" name="tag1">
+    <input type="text" name="tag2">
+    <input type="text" name="tag3">
+  </div>
+  <div>
+    <p><label>正文:</label></p>
+    <textarea name="post"></textarea> 
+  </div>
+  <div>
+    <input type="submit" value="发表" class="btn">
+  </div>      
+</form>
+<%- include footer %>
+

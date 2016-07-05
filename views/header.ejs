@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Blog</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="/stylesheets/main.css" type="text/css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<script type='text/javascript' src='/javascript/respond.min.js'></script>
+<script type="text/javascript" src="/javascript/login.js"></script>
+</head>
+<body>
+    <div id="wrapper">    
+      <header>        
+        <h1>桔梗小栈</h1>       
+        <nav>
+          <ul>
+            <li><form action="/search" method="GET"><input type="text" name="keyword" placeholder="search"/></form></li>
+            <% if (user) { %>
+            <li><a>您好 <%= user.name %></a></li>
+            <li><a href="/logout">登出</a></li>
+            <% } else { %>
+            <li><a href="/login">登录</a></li>
+            <li><a href="/reg">注册</a></li>
+            <% } %>
+          </ul>
+        </nav>
+        <div class="banner">
+          <p>若要前行</p>
+          <p>就要离开你现在停留的地方</p>
+        </div>          
+      </header>       
+      <aside id="aside">
+        <ul>
+          <li><a href="/">首页</a></li>
+          <li><a href="/archive">所有文章</a></li>
+          <li><a href="/tags">标签分类</a></li>
+          <% if (user) { %>
+          <li><a href="/post">发表文章</a></li>
+          <li><a href="/upload">上传</a></li>
+         <% } %>      
+       </ul>
+      </aside>  
+      <section id="main">
+        <% if (success) { %>
+        <div class="message"><%= success %></div>
+        <% } %>
+        <% if (error) { %>
+        <div class="message"><%= error %> </div>
+        <% } %>            

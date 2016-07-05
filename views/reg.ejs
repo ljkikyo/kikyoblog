@@ -1,0 +1,33 @@
+<%- include header %>
+<form method="post">
+   <div>
+    <p><label>用户名:</label></p>
+    <input type="text" id="ip1" name="name">
+    <br>
+    <span>必填，长度为4~16位字符</span>
+  </div>
+  <div>
+    <p><label>密码:</label></p>
+    <input type="password" id="ip2" name="password">
+    <br>
+    <span>必填，长度为4~16位字符,包含字母和数字</span>
+  </div>
+  <div>
+    <p><label>确认密码:</label></p>
+    <input type="password" id="ip3" name="password-repeat">
+    <br>
+    <span>必填，必须与密码相同</span>
+  </div>
+  <div>
+    <p><label>邮箱:</label></p>
+    <input type="text" id="ip4" name="email">
+    <br>
+    <span>example@haha.com</span>
+  </div>
+  <div>
+    <input type="submit" value="注册" id="register" class="btn">
+  </div>      
+</form> 
+<%- include footer %>
+
+

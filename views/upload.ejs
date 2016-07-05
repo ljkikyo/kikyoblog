@@ -1,0 +1,15 @@
+<%- include header %>
+<br>
+<form method='post' action='/upload' enctype='multipart/form-data'>
+  <div>
+  	<p><label>上传图片:</label></p>
+  	<a href="javascript:;" class="a-upload">
+    <input type="file" name="file1" multiple="multiple" id="file">点击这里上传文件
+	</a>
+  </div>
+  <div>
+  <input type="submit" value="提交" class="btn"/>
+  </div>
+  <div id="loadImg"></div>
+</form>
+<%- include footer %>

@@ -1,0 +1,2306 @@
+[Mon May 23 2016 21:48:47 GMT+0800 (HKT)] /
+TypeError: /Users/kikyo/Desktop/microblog/views/index.ejs:33
+    31| <%- include footer %>
+
+Cannot read property 'name' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:15:20)
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:40:9)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:16:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:97:11
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:839:16
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at setCursorNotified (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:511:3)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:582:16
+    at queryCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:220:18)
+[Mon May 23 2016 21:48:49 GMT+0800 (HKT)] /
+TypeError: /Users/kikyo/Desktop/microblog/views/index.ejs:33
+    31| <%- include footer %>
+
+Cannot read property 'name' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:15:20)
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:40:9)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:16:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:97:11
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:839:16
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at setCursorNotified (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:511:3)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:582:16
+    at queryCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:220:18)
+[Mon May 23 2016 21:51:53 GMT+0800 (HKT)] /
+ReferenceError: /Users/kikyo/Desktop/microblog/views/index.ejs:33
+    31| <%- include footer %>
+
+req is not defined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:15:8)
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:40:9)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:16:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:97:11
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:839:16
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at setCursorNotified (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:511:3)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:582:16
+    at queryCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:220:18)
+[Mon May 23 2016 21:53:19 GMT+0800 (HKT)] /
+SyntaxError: Unexpected token = in /Users/kikyo/Desktop/microblog/views/index.ejs while compiling ejs
+    at Object.Template.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12)
+    at Object.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:288:16)
+    at handleCache (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:147:16)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:14)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:16:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:97:11
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:839:16
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at setCursorNotified (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:511:3)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:582:16
+    at queryCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:220:18)
+[Mon May 23 2016 21:53:31 GMT+0800 (HKT)] /
+SyntaxError: Unexpected token = in /Users/kikyo/Desktop/microblog/views/index.ejs while compiling ejs
+    at Object.Template.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12)
+    at Object.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:288:16)
+    at handleCache (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:147:16)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:14)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:16:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:97:11
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:839:16
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at setCursorNotified (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:511:3)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:582:16
+    at queryCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:220:18)
+[Mon May 23 2016 21:53:32 GMT+0800 (HKT)] /
+SyntaxError: Unexpected token = in /Users/kikyo/Desktop/microblog/views/index.ejs while compiling ejs
+    at Object.Template.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12)
+    at Object.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:288:16)
+    at handleCache (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:147:16)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:14)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:16:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:97:11
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:839:16
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at setCursorNotified (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:511:3)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:582:16
+    at queryCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:220:18)
+[Mon May 23 2016 21:55:39 GMT+0800 (HKT)] /
+ReferenceError: /Users/kikyo/Desktop/microblog/views/index.ejs:33
+    31| <%- include footer %>
+
+username is not defined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:15:23)
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:40:9)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:16:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:97:11
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:839:16
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at setCursorNotified (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:511:3)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:582:16
+    at queryCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:220:18)
+[Mon May 23 2016 21:55:41 GMT+0800 (HKT)] /
+ReferenceError: /Users/kikyo/Desktop/microblog/views/index.ejs:33
+    31| <%- include footer %>
+
+username is not defined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:15:23)
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:40:9)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:16:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:97:11
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:839:16
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at setCursorNotified (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:511:3)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:582:16
+    at queryCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:220:18)
+[Mon May 23 2016 21:55:45 GMT+0800 (HKT)] /
+ReferenceError: /Users/kikyo/Desktop/microblog/views/index.ejs:33
+    31| <%- include footer %>
+
+username is not defined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:15:23)
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:40:9)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:16:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:97:11
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:839:16
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at setCursorNotified (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:511:3)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:582:16
+    at queryCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:220:18)
+[Mon May 23 2016 21:56:14 GMT+0800 (HKT)] /
+ReferenceError: /Users/kikyo/Desktop/microblog/views/index.ejs:33
+    31| <%- include footer %>
+
+lj is not defined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:15:23)
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:40:9)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:16:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:97:11
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:839:16
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at setCursorNotified (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:511:3)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:582:16
+    at queryCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:220:18)
+[Mon May 23 2016 22:43:13 GMT+0800 (HKT)] /
+SyntaxError: Unexpected token ) in /Users/kikyo/Desktop/microblog/views/index.ejs while compiling ejs
+    at Object.Template.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12)
+    at Object.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:288:16)
+    at handleCache (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:147:16)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:14)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:16:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:97:11
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:839:16
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at setCursorNotified (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:511:3)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:582:16
+    at queryCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:220:18)
+[Mon May 23 2016 22:55:59 GMT+0800 (HKT)] /post
+ReferenceError: /Users/kikyo/Desktop/microblog/views/post.ejs:39
+
+
+req is not defined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:15:23)
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:46:9)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:111:9
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+[Thu Jun 16 2016 15:37:29 GMT+0800 (HKT)] /archive
+ReferenceError: Invalid left-hand side in assignment
+    at Object.Template.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12)
+    at Object.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:288:16)
+    at handleCache (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:147:16)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:14)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:163:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:306:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:839:16
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at setCursorDeadAndNotified (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:501:3)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:652:7)
+    at Cursor.next [as _next] (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:693:3)
+[Thu Jun 16 2016 15:44:10 GMT+0800 (HKT)] /archive
+ReferenceError: /Users/kikyo/Desktop/microblog/views/archive.ejs:15
+
+
+window is not defined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:13:3)
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:70:9)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:163:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:306:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:839:16
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at setCursorDeadAndNotified (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:501:3)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:652:7)
+    at Cursor.next [as _next] (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:693:3)
+[Thu Jun 16 2016 15:44:11 GMT+0800 (HKT)] /archive
+ReferenceError: /Users/kikyo/Desktop/microblog/views/archive.ejs:15
+
+
+window is not defined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:13:3)
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:70:9)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:163:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:306:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:839:16
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at setCursorDeadAndNotified (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:501:3)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:652:7)
+    at Cursor.next [as _next] (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:693:3)
+[Thu Jun 16 2016 15:44:35 GMT+0800 (HKT)] /archive
+SyntaxError: Unexpected token < in /Users/kikyo/Desktop/microblog/views/archive.ejs while compiling ejs
+    at Object.Template.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12)
+    at Object.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:288:16)
+    at handleCache (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:147:16)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:14)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:163:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:306:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:839:16
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at setCursorDeadAndNotified (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:501:3)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:652:7)
+    at Cursor.next [as _next] (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:693:3)
+[Thu Jun 16 2016 15:44:36 GMT+0800 (HKT)] /archive
+SyntaxError: Unexpected token < in /Users/kikyo/Desktop/microblog/views/archive.ejs while compiling ejs
+    at Object.Template.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12)
+    at Object.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:288:16)
+    at handleCache (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:147:16)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:14)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:163:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:306:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:839:16
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at setCursorDeadAndNotified (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:501:3)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:652:7)
+    at Cursor.next [as _next] (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:693:3)
+[Fri Jun 17 2016 15:57:44 GMT+0800 (HKT)] /
+Error: Could not find matching close tag for "<%".
+    at /Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:519:19
+    at Array.forEach (native)
+    at Object.Template.generateSource (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:505:15)
+    at includeSource (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:198:9)
+    at /Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:528:26
+    at Array.forEach (native)
+    at Object.Template.generateSource (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:505:15)
+    at Object.Template.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:427:12)
+    at Object.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:288:16)
+    at handleCache (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:147:16)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:14)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:16:11
+[Fri Jun 17 2016 15:57:46 GMT+0800 (HKT)] /
+Error: Could not find matching close tag for "<%".
+    at /Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:519:19
+    at Array.forEach (native)
+    at Object.Template.generateSource (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:505:15)
+    at includeSource (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:198:9)
+    at /Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:528:26
+    at Array.forEach (native)
+    at Object.Template.generateSource (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:505:15)
+    at Object.Template.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:427:12)
+    at Object.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:288:16)
+    at handleCache (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:147:16)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:14)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:16:11
+[Fri Jun 17 2016 15:57:55 GMT+0800 (HKT)] /
+Error: Could not find matching close tag for "<%".
+    at /Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:519:19
+    at Array.forEach (native)
+    at Object.Template.generateSource (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:505:15)
+    at includeSource (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:198:9)
+    at /Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:528:26
+    at Array.forEach (native)
+    at Object.Template.generateSource (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:505:15)
+    at Object.Template.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:427:12)
+    at Object.compile (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:288:16)
+    at handleCache (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:147:16)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:14)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:16:11
+[Sat Jun 18 2016 17:00:59 GMT+0800 (HKT)] /upload
+ReferenceError: filename is not defined
+    at /Users/kikyo/Desktop/microblog/routes/index.js:155:45
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+    at checkLogin (/Users/kikyo/Desktop/microblog/routes/index.js:380:5)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+[Sat Jun 18 2016 17:01:50 GMT+0800 (HKT)] /upload
+ReferenceError: filename is not defined
+    at /Users/kikyo/Desktop/microblog/routes/index.js:155:46
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+    at checkLogin (/Users/kikyo/Desktop/microblog/routes/index.js:380:5)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+[Sat Jun 18 2016 17:10:22 GMT+0800 (HKT)] /upload
+ReferenceError: formidable is not defined
+    at /Users/kikyo/Desktop/microblog/routes/index.js:155:20
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+    at checkLogin (/Users/kikyo/Desktop/microblog/routes/index.js:413:5)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+[Mon Jun 20 2016 11:04:51 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]%E5%BD%93%E4%BD%A0%E8%80%81%E4%BA%86
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:13
+    11|     <label for="inputtag" class="col-sm-2 control-label">标签</label>
+    12|     <div class="col-sm-4">
+ >> 13|       <input type="text" class="form-control" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    14|       <input type="text" class="form-control" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    15|       <input type="text" class="form-control" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    16|     </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:53:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 11:45:04 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]%E5%BD%93%E4%BD%A0%E8%80%81%E4%BA%86
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:8
+    6|   <div>
+    7|     <p><label for="inputtag" >标签:</label></p>
+ >> 8|     <input type="text" class=" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    9|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    11|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:53:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 11:49:45 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]%E5%BD%93%E4%BD%A0%E8%80%81%E4%BA%86
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:8
+    6|   <div>
+    7|     <p><label for="inputtag" >标签:</label></p>
+ >> 8|     <input type="text" class=" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    9|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    11|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:53:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 11:49:50 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]%E5%BD%93%E4%BD%A0%E8%80%81%E4%BA%86
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:8
+    6|   <div>
+    7|     <p><label for="inputtag" >标签:</label></p>
+ >> 8|     <input type="text" class=" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    9|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    11|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:53:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 12:23:13 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]%E5%BD%93%E4%BD%A0%E8%80%81%E4%BA%86
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:8
+    6|   <div>
+    7|     <p><label for="inputtag" >标签:</label></p>
+ >> 8|     <input type="text" class=" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    9|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    11|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:53:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 15:43:41 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]%E5%BD%93%E4%BD%A0%E8%80%81%E4%BA%86
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:8
+    6|   <div>
+    7|     <p><label for="inputtag" >标签:</label></p>
+ >> 8|     <input type="text" class=" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    9|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    11|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:53:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 15:45:13 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]%E5%BD%93%E4%BD%A0%E8%80%81%E4%BA%86
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:8
+    6|   <div>
+    7|     <p><label for="inputtag" >标签:</label></p>
+ >> 8|     <input type="text" class=" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    9|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    11|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:53:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 15:53:10 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]%E5%BD%93%E4%BD%A0%E8%80%81%E4%BA%86
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" class=" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 15:54:01 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]%E5%BD%93%E4%BD%A0%E8%80%81%E4%BA%86
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" class=" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 15:54:33 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]%E5%BD%93%E4%BD%A0%E8%80%81%E4%BA%86
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" class=" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 16:21:46 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]%E5%BD%93%E4%BD%A0%E8%80%81%E4%BA%86
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" class=" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 16:32:42 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]%E5%BD%93%E4%BD%A0%E8%80%81%E4%BA%86
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" class=" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 16:32:46 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]%E5%BD%93%E4%BD%A0%E8%80%81%E4%BA%86
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" class=" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 16:34:32 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/JavaScript%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0%EF%BC%9A%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" class=" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 16:35:28 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/JavaScript%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0%EF%BC%9A%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" class=" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 16:45:23 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/JavaScript%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0%EF%BC%9A%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 16:45:26 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/JavaScript%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0%EF%BC%9A%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 17:09:08 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/JavaScript%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0%EF%BC%9A%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 17:09:11 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/JavaScript%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0%EF%BC%9A%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 20:18:00 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/JavaScript%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0%EF%BC%9A%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 20:30:16 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/JavaScript%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0%EF%BC%9A%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 20:30:28 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]node.js
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 20:30:42 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]node.js
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 20:31:17 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]node.js
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 20:32:20 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]node.js
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 20:32:27 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]node.js
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 20:32:35 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]node.js
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 20:32:37 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]node.js
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label for="inputtag" >标签:</label></p>
+ >> 9|     <input type="text" id="inputtag" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" id="inputtag" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" id="inputtag" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 20:37:30 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]node.js
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label>标签:</label></p>
+ >> 9|     <input type="text" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 20:40:34 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]node.js
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label>标签:</label></p>
+ >> 9|     <input type="text" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 20:40:44 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/JavaScript%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0%EF%BC%9A%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label>标签:</label></p>
+ >> 9|     <input type="text" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 20:42:15 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/JavaScript%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0%EF%BC%9A%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label>标签:</label></p>
+ >> 9|     <input type="text" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 20:42:27 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]node.js
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label>标签:</label></p>
+ >> 9|     <input type="text" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 20:46:41 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]node.js
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label>标签:</label></p>
+ >> 9|     <input type="text" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 20:48:10 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]node.js
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label>标签:</label></p>
+ >> 9|     <input type="text" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 20:49:59 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]node.js
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label>标签:</label></p>
+ >> 9|     <input type="text" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:60:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 20:55:28 GMT+0800 (HKT)] /edit/jjjj/2016-6-20/[%E8%BD%AC%E8%BD%BD]node.js
+TypeError: /Users/kikyo/Desktop/microblog/views/edit.ejs:9
+    7|   <div>
+    8|     <p><label>标签:</label></p>
+ >> 9|     <input type="text" name="tag1" value="<%= post.tag[0] %>" disabled="disabled">
+    10|     <input type="text" name="tag2" value="<%= post.tags[1] %>" disabled="disabled">
+    11|     <input type="text" name="tag3" value="<%= post.tags[2] %>" disabled="disabled">
+    12|   </div>
+
+Cannot read property '0' of undefined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:53:31)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:312:11
+    at /Users/kikyo/Desktop/microblog/models/post.js:176:9
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/collection.js:1357:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb/lib/cursor.js:661:5
+    at handleCallback (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:159:5)
+    at nextFunction (/Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:683:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/mongodb-core/lib/cursor.js:585:7
+[Mon Jun 20 2016 23:32:56 GMT+0800 (HKT)] /upload
+ReferenceError: /Users/kikyo/Desktop/microblog/views/upload.ejs:13
+    11|   <input type="submit" value="提交" class="btn"/>
+    12|   </div>
+ >> 13|   <div id="loadImg"><img src="<%= filename%>"></div>
+    14| </form>
+    15| <%- include footer %>
+    16| 
+
+filename is not defined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:50:23)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:143:9
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+[Mon Jun 20 2016 23:33:32 GMT+0800 (HKT)] /upload
+ReferenceError: /Users/kikyo/Desktop/microblog/views/upload.ejs:13
+    11|   <input type="submit" value="提交" class="btn"/>
+    12|   </div>
+ >> 13|   <div id="loadImg"><img src="public/images/<%= filename%>"></div>
+    14| </form>
+    15| <%- include footer %>
+    16| 
+
+filename is not defined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:50:23)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:143:9
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+[Mon Jun 20 2016 23:33:34 GMT+0800 (HKT)] /upload
+ReferenceError: /Users/kikyo/Desktop/microblog/views/upload.ejs:13
+    11|   <input type="submit" value="提交" class="btn"/>
+    12|   </div>
+ >> 13|   <div id="loadImg"><img src="public/images/<%= filename%>"></div>
+    14| </form>
+    15| <%- include footer %>
+    16| 
+
+filename is not defined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:50:23)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:143:9
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+[Mon Jun 20 2016 23:39:22 GMT+0800 (HKT)] /upload
+TypeError: Cannot read property 'name' of undefined
+    at /Users/kikyo/Desktop/microblog/routes/index.js:154:63
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+    at checkLogin (/Users/kikyo/Desktop/microblog/routes/index.js:381:5)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+[Mon Jun 20 2016 23:49:40 GMT+0800 (HKT)] /upload
+ReferenceError: originalname is not defined
+    at /Users/kikyo/Desktop/microblog/routes/index.js:148:26
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+    at checkLogin (/Users/kikyo/Desktop/microblog/routes/index.js:382:5)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+[Mon Jun 20 2016 23:49:43 GMT+0800 (HKT)] /upload
+ReferenceError: originalname is not defined
+    at /Users/kikyo/Desktop/microblog/routes/index.js:148:26
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+    at checkLogin (/Users/kikyo/Desktop/microblog/routes/index.js:382:5)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+[Mon Jun 20 2016 23:50:20 GMT+0800 (HKT)] /upload
+ReferenceError: filename is not defined
+    at /Users/kikyo/Desktop/microblog/routes/index.js:148:26
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+    at checkLogin (/Users/kikyo/Desktop/microblog/routes/index.js:382:5)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+[Mon Jun 20 2016 23:50:24 GMT+0800 (HKT)] /upload
+ReferenceError: filename is not defined
+    at /Users/kikyo/Desktop/microblog/routes/index.js:148:26
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+    at checkLogin (/Users/kikyo/Desktop/microblog/routes/index.js:382:5)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+[Tue Jun 21 2016 00:03:01 GMT+0800 (HKT)] /upload
+TypeError: Cannot read property 'filename' of undefined
+    at /Users/kikyo/Desktop/microblog/routes/index.js:148:24
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+    at checkLogin (/Users/kikyo/Desktop/microblog/routes/index.js:382:5)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+[Tue Jun 21 2016 00:03:07 GMT+0800 (HKT)] /upload
+TypeError: Cannot read property 'filename' of undefined
+    at /Users/kikyo/Desktop/microblog/routes/index.js:148:24
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+    at checkLogin (/Users/kikyo/Desktop/microblog/routes/index.js:382:5)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+[Tue Jun 21 2016 00:09:47 GMT+0800 (HKT)] /upload
+ReferenceError: filename is not defined
+    at /Users/kikyo/Desktop/microblog/routes/index.js:148:26
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+    at checkLogin (/Users/kikyo/Desktop/microblog/routes/index.js:382:5)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+[Tue Jun 21 2016 00:09:51 GMT+0800 (HKT)] /upload
+ReferenceError: filename is not defined
+    at /Users/kikyo/Desktop/microblog/routes/index.js:148:26
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+    at checkLogin (/Users/kikyo/Desktop/microblog/routes/index.js:382:5)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+[Tue Jun 21 2016 00:10:00 GMT+0800 (HKT)] /upload
+ReferenceError: filename is not defined
+    at /Users/kikyo/Desktop/microblog/routes/index.js:148:26
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+    at checkLogin (/Users/kikyo/Desktop/microblog/routes/index.js:382:5)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+[Tue Jun 21 2016 00:10:48 GMT+0800 (HKT)] /upload
+ReferenceError: /Users/kikyo/Desktop/microblog/views/upload.ejs:13
+    11|   <input type="submit" value="提交" class="btn"/>
+    12|   </div>
+ >> 13|   <div id="loadImg"><%= filename%></div>
+    14| </form>
+    15| <%- include footer %>
+    16| 
+
+filename is not defined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:50:23)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:143:9
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+[Tue Jun 21 2016 00:10:51 GMT+0800 (HKT)] /upload
+ReferenceError: /Users/kikyo/Desktop/microblog/views/upload.ejs:13
+    11|   <input type="submit" value="提交" class="btn"/>
+    12|   </div>
+ >> 13|   <div id="loadImg"><%= filename%></div>
+    14| </form>
+    15| <%- include footer %>
+    16| 
+
+filename is not defined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:50:23)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:143:9
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+[Tue Jun 21 2016 00:11:12 GMT+0800 (HKT)] /upload
+ReferenceError: /Users/kikyo/Desktop/microblog/views/upload.ejs:13
+    11|   <input type="submit" value="提交" class="btn"/>
+    12|   </div>
+ >> 13|   <div id="loadImg"><%= filename%></div>
+    14| </form>
+    15| <%- include footer %>
+    16| 
+
+filename is not defined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:50:23)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:143:9
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+[Tue Jun 21 2016 00:11:14 GMT+0800 (HKT)] /upload
+ReferenceError: /Users/kikyo/Desktop/microblog/views/upload.ejs:13
+    11|   <input type="submit" value="提交" class="btn"/>
+    12|   </div>
+ >> 13|   <div id="loadImg"><%= filename%></div>
+    14| </form>
+    15| <%- include footer %>
+    16| 
+
+filename is not defined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:50:23)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:143:9
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+[Tue Jun 21 2016 00:11:45 GMT+0800 (HKT)] /upload
+ReferenceError: /Users/kikyo/Desktop/microblog/views/upload.ejs:13
+    11|   <input type="submit" value="提交" class="btn"/>
+    12|   </div>
+ >> 13|   <div id="loadImg"><%= filename%></div>
+    14| </form>
+    15| <%- include footer %>
+    16| 
+
+filename is not defined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:50:23)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:143:9
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+[Tue Jun 21 2016 00:11:48 GMT+0800 (HKT)] /upload
+ReferenceError: /Users/kikyo/Desktop/microblog/views/upload.ejs:13
+    11|   <input type="submit" value="提交" class="btn"/>
+    12|   </div>
+ >> 13|   <div id="loadImg"><%= filename%></div>
+    14| </form>
+    15| <%- include footer %>
+    16| 
+
+filename is not defined
+    at eval (eval at <anonymous> (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:50:23)
+    at returnedFn (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/Users/kikyo/Desktop/microblog/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/view.js:126:8)
+    at tryRender (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:639:10)
+    at EventEmitter.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/application.js:591:3)
+    at ServerResponse.render (/Users/kikyo/Desktop/microblog/node_modules/express/lib/response.js:961:7)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:143:9
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+[Tue Jun 21 2016 00:13:39 GMT+0800 (HKT)] /upload
+ReferenceError: filename is not defined
+    at /Users/kikyo/Desktop/microblog/routes/index.js:154:44
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+    at checkLogin (/Users/kikyo/Desktop/microblog/routes/index.js:381:5)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+[Tue Jun 21 2016 00:14:25 GMT+0800 (HKT)] /upload
+ReferenceError: filename is not defined
+    at /Users/kikyo/Desktop/microblog/routes/index.js:148:26
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+    at checkLogin (/Users/kikyo/Desktop/microblog/routes/index.js:382:5)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+[Tue Jun 21 2016 00:14:27 GMT+0800 (HKT)] /upload
+ReferenceError: filename is not defined
+    at /Users/kikyo/Desktop/microblog/routes/index.js:148:26
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+    at checkLogin (/Users/kikyo/Desktop/microblog/routes/index.js:382:5)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+[Tue Jun 21 2016 00:16:05 GMT+0800 (HKT)] /upload
+ReferenceError: filename is not defined
+    at /Users/kikyo/Desktop/microblog/routes/index.js:155:34
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:121:14)
+    at checkLogin (/Users/kikyo/Desktop/microblog/routes/index.js:382:5)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+[Mon Jul 04 2016 16:38:40 GMT+0800 (HKT)] /
+TypeError: mongodb.open is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 16:38:43 GMT+0800 (HKT)] /
+TypeError: mongodb.open is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 16:38:46 GMT+0800 (HKT)] /
+TypeError: mongodb.open is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 16:51:46 GMT+0800 (HKT)] /
+TypeError: mongodb.connect is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 16:51:51 GMT+0800 (HKT)] /
+TypeError: mongodb.connect is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 16:56:23 GMT+0800 (HKT)] /
+TypeError: mongodb.connect is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 16:56:36 GMT+0800 (HKT)] /
+TypeError: mongodb.connect is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 16:56:45 GMT+0800 (HKT)] /
+TypeError: mongodb.connect is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 17:00:43 GMT+0800 (HKT)] /
+TypeError: mongodb.connect is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 17:00:47 GMT+0800 (HKT)] /
+TypeError: mongodb.connect is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 17:13:17 GMT+0800 (HKT)] /
+TypeError: mongodb.connect is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 17:13:22 GMT+0800 (HKT)] /
+TypeError: mongodb.connect is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 19:34:57 GMT+0800 (HKT)] /
+TypeError: mongodb.connect is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 19:35:00 GMT+0800 (HKT)] /
+TypeError: mongodb.connect is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 19:35:03 GMT+0800 (HKT)] /
+TypeError: mongodb.connect is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 19:35:47 GMT+0800 (HKT)] /
+TypeError: mongodb.connect is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 19:35:50 GMT+0800 (HKT)] /
+TypeError: mongodb.connect is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 19:37:10 GMT+0800 (HKT)] /
+TypeError: mongodb.connect is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 19:37:13 GMT+0800 (HKT)] /
+TypeError: mongodb.connect is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 19:39:01 GMT+0800 (HKT)] /
+TypeError: mongodb.connect is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 19:40:03 GMT+0800 (HKT)] /
+TypeError: mongodb.connect is not a function
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:11)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 19:58:33 GMT+0800 (HKT)] /
+TypeError: Cannot read property 'connect' of undefined
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:22)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
+[Mon Jul 04 2016 19:58:37 GMT+0800 (HKT)] /
+TypeError: Cannot read property 'connect' of undefined
+    at Function.Post.getTen (/Users/kikyo/Desktop/microblog/models/post.js:67:22)
+    at /Users/kikyo/Desktop/microblog/routes/index.js:12:10
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:356:12)
+    at next (/Users/kikyo/Desktop/microblog/node_modules/send/index.js:658:28)
+    at /Users/kikyo/Desktop/microblog/node_modules/send/index.js:666:23
